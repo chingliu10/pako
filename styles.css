@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+
+h1 {
+    padding: 20px 0 20px 100px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image {
+    margin: 0 100px 0 100px;
+    background-image: url("rice.jpg");
+    background-size: cover;
+}
+
+h1{
+    height: 10vh;
+}
+
+.image, .order {
+    height: 80vh;
+}
+
+.order_cover {
+    height: auto;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.notification {
+    margin: 10px 0;
+}
+
+.board {
+    border: 2px solid whitesmoke;
+    height: 300px;
+    margin: 20px 0;
+}
+
+button, select {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    border: none;
+}
+
+#add_to_cart {
+    background-color: #04AA6D;
+    color: white;
+    font-weight: 900;
+}
+
+.reset {
+    background-color: tomato;
+    color: white;
+    font-weight: 900;
+}
